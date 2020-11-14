@@ -1,7 +1,7 @@
 .\output\sht20.o: hardware\src\sht20.c
 .\output\sht20.o: .\core\stm32f10x.h
 .\output\sht20.o: .\core\core_cm3.h
-.\output\sht20.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sht20.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\sht20.o: .\core\system_stm32f10x.h
 .\output\sht20.o: .\core\stm32f10x_conf.h
 .\output\sht20.o: .\fwlib\inc\stm32f10x_adc.h

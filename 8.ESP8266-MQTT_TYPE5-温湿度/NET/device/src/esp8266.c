@@ -33,7 +33,7 @@
 #include <stdio.h>
 
 
-#define ESP8266_WIFI_INFO		"AT+CWJAP=\"1405-lab-2.4G\",\"se1405lab\"\r\n"
+#define ESP8266_WIFI_INFO		"AT+CWJAP=\"ysss\",\"123456789\"\r\n"
 
 #define ESP8266_ONENET_INFO		"AT+CIPSTART=\"TCP\",\"183.230.40.39\",6002\r\n"
 

@@ -1,7 +1,7 @@
 .\output\i2c.o: hardware\src\i2c.c
 .\output\i2c.o: .\core\stm32f10x.h
 .\output\i2c.o: .\core\core_cm3.h
-.\output\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\i2c.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\i2c.o: .\core\system_stm32f10x.h
 .\output\i2c.o: .\core\stm32f10x_conf.h
 .\output\i2c.o: .\fwlib\inc\stm32f10x_adc.h

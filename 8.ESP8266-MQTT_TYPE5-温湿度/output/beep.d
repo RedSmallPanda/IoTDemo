@@ -1,7 +1,7 @@
 .\output\beep.o: hardware\src\beep.c
 .\output\beep.o: .\core\stm32f10x.h
 .\output\beep.o: .\core\core_cm3.h
-.\output\beep.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\beep.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\beep.o: .\core\system_stm32f10x.h
 .\output\beep.o: .\core\stm32f10x_conf.h
 .\output\beep.o: .\fwlib\inc\stm32f10x_adc.h

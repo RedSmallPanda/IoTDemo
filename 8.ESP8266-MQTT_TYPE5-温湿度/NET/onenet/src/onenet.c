@@ -33,6 +33,7 @@
 #include "usart.h"
 #include "delay.h"
 #include "sht20.h"
+#include "beep.h"
 
 //C库
 #include <string.h>
@@ -239,6 +240,11 @@ void OneNet_RevPro(unsigned char *cmd)
 		return;
 	
 	dataPtr = strchr(req_payload, '}');					//搜索'}'
+	if(strstr(req_payload,"beep")){
+		Beep_Set(BEEP_ON);				
+		DelayXms(250);
+		Beep_Set(BEEP_OFF);
+	}
 
 	if(dataPtr != NULL && result != -1)					//如果找到了
 	{

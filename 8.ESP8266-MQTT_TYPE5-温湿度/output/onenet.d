@@ -1,7 +1,7 @@
 .\output\onenet.o: NET\onenet\src\onenet.c
 .\output\onenet.o: .\core\stm32f10x.h
 .\output\onenet.o: .\core\core_cm3.h
-.\output\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\onenet.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\onenet.o: .\core\system_stm32f10x.h
 .\output\onenet.o: .\core\stm32f10x_conf.h
 .\output\onenet.o: .\fwlib\inc\stm32f10x_adc.h
@@ -32,9 +32,10 @@
 .\output\onenet.o: .\NET\onenet\inc\onenet.h
 .\output\onenet.o: .\NET\MQTT\mqttkit.h
 .\output\onenet.o: .\NET\MQTT\Common.h
-.\output\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\onenet.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdlib.h
 .\output\onenet.o: .\hardware\inc\usart.h
 .\output\onenet.o: .\hardware\inc\delay.h
 .\output\onenet.o: .\hardware\inc\sht20.h
-.\output\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\output\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\onenet.o: .\hardware\inc\beep.h
+.\output\onenet.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\string.h
+.\output\onenet.o: E:\software\IOT\ARM\ARMCC\Bin\..\include\stdio.h
